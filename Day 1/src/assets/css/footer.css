@@ -1,0 +1,65 @@
+.footer {
+    position: bottom;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #4a3b16; /* Adjust the background color */
+    color: white; /* Adjust the text color */
+    padding: 20px; /* Adjust the padding as needed */
+    display: flex;
+    margin-bottom: -25px;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+   
+    top: 0;
+    left: 20px; /* Adjust this value as needed */
+    background-color: rgb(181, 169, 169); /* Adjust background color as needed */
+    padding: 10px;
+    border: 1px solid #ccc; /* Add border for better visibility */
+    border-radius: 5px; /* Optional: Add border radius for better appearance */
+    z-index: 1; /* Ensure the list appears above other content */
+
+}
+.para{
+    text-align: left;
+}
+.footer-section p {
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.link-contactus li{
+    margin-left: 90px;
+}
+
+.footer-section li{
+   text-align: left;
+}
+
+.location p{
+    text-align: left;
+}
+/* You may further style the footer according to your design requirements */

@@ -1,0 +1,86 @@
+/* SignIn.css */
+
+.signin-container {
+    background-image: url('../../assets/images/signin.jpg'); /* Set background image */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    width: 100vw; /* Full width of viewport */
+    height: 100vh; /* Full height of viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .signin-content {
+    background: rgba(255, 255, 255, 0.275); /* Semi-transparent background */
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    animation: fadein 1s ease-in-out;
+  }
+  
+  .signin-header {
+    margin-bottom: 20px;
+  }
+  
+  .signin-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .signin-label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .signin-input {
+    padding: 10px;
+    width: calc(100% - 20px);
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .signin-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .signin-form {
+  background-image: url('../../assets/images/background.jpg'); /* Set background image */
+  background-size: 50%; /* Set the size of the background image */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-position: center; /* Center the background image */
+}
+
+  .signin-button:hover {
+    background-color: #45a049;
+  }
+  
+  .submitted-message {
+    color: #4CAF50;
+    margin-top: 20px;
+    animation: fadein 1s ease-in-out;
+  }
+  
+  @keyframes fadein {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
